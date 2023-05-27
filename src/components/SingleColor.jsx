@@ -20,7 +20,7 @@ const SingleColor = ({ index, hex, weight }) => {
 
   return (
     <div
-      className="color-light"
+      className="singleColor color-light"
       style={{
         background: `#${hex}`,
       }}

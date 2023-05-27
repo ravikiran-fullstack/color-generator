@@ -10,7 +10,7 @@ const ColorList = ({ colorsList }) => {
       {colorsList.map((color, index) => {
         const { hex, weight } = color;
         return (
-          <SingleColor index={index} key={hex} hex={hex} weight={weight} />
+          <SingleColor className="singleColor" index={index} key={hex} hex={hex} weight={weight} />
         );
       })}
     </div>

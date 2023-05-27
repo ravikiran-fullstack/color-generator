@@ -33,6 +33,7 @@ const Form = ({ setColorsList }) => {
         type="text"
         name="color"
         id="color"
+        className="text-input"
         value={color}
         onChange={(e) => setColor(e.target.value)}
         placeholder="#f2de2d"
