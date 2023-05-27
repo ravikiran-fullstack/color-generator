@@ -9,7 +9,7 @@ const App = () => {
   const [colorsList, setColorsList] = useState(colors);
   return (
     <div className="container">
-      <h4>Color Generator Starter</h4>
+      <h4>Color Generator</h4>
       <Form setColorsList={setColorsList} />
       <ColorList colorsList={colorsList} />
       <ToastContainer position="top-center" />
